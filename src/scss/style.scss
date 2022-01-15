@@ -2,3 +2,37 @@
 @import './bootstrap/bootstrap';
 @import './fontawesome';
 @import './font';
+
+.features{
+	&__circle{
+		width: 6rem;
+		height: 6rem;
+
+		&__icon{
+			line-height: 6rem;
+		}
+	}
+}
+
+.single{
+	&__entry{
+		position: relative;
+		inset: 0;
+		display: block;
+		height: 20rem;
+		overflow: hidden;
+
+		&__image{
+			position: absolute;
+			object-fit: cover;
+			object-position: center center;
+			width: 100%;
+			z-index: $zindex-dropdown;
+		}
+	}
+
+	&__header{
+		margin-top: -100%;
+		z-index: $zindex-modal;
+	}
+}
