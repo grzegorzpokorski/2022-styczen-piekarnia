@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.12.10",
 		"@babel/preset-env": "^7.12.11",
+		"@fontsource/open-sans": "^4.5.2",
 		"@fortawesome/fontawesome-free": "^5.15.4",
 		"@popperjs/core": "^2.10.2",
 		"bootstrap": "^5.1.3",

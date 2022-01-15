@@ -4,25 +4,26 @@
 
 // colors
 
-$primary: #ff4b33;
-$secondary: #1a1a1a;
-
-$gray: #333333;
-$gray-lighter: #555555;
-
-$white: #ffffff;
-$white-darker: #eeeeee;
-
 $black: #000000;
+$white: #ffffff;
+$light-pink: #f4e9e3;
+$yellow: #ffa726;
+$brown-1: #361000;
+$brown-2: #4a281a;
+$gray-1: #212121;
+$gray-2: #757575;
+$gray: $gray-1;
 
 $theme-colors:();
 $theme-colors:(
-	'primary': $primary,
-	'secondary': $secondary,
-	'gray': $gray,
-	'gray-lighter': $gray-lighter,
+	'black': $black,
 	'white': $white,
-	'white-darker': $white-darker,
+	'light-pink': $light-pink,
+	'yellow': $yellow,
+	'brown-1': $brown-1,
+	'brown-2': $brown-2,
+	'gray-1': $gray-1,
+	'gray-2': $gray-2,
 );
 
 // Options
@@ -41,7 +42,7 @@ $enable-validation-icons: false;
 // Body
 
 $body-bg: $white;
-$body-color: $secondary;
+$body-color: $white;
 
 // Links
 
@@ -52,7 +53,7 @@ $link-hover-decoration: underline;
 
 // fonts
 
-$font-family-sans-serif: 'Manrope', Arial, sans-serif;
+$font-family-sans-serif: 'Open Sans', Arial, sans-serif;
 $font-family-base: $font-family-sans-serif;
 
 $font-weight-normal: 400;
@@ -65,7 +66,7 @@ $font-size-sm: ($font-size-base * 0.875);
 
 $h1-font-size: $font-size-base * 2.8;
 $h2-font-size: $font-size-base * 2.4;
-$h3-font-size: $font-size-base * 1.5;
+$h3-font-size: $font-size-base * 1.75;
 $h4-font-size: $font-size-base * 1.25;
 $h5-font-size: $font-size-base * 1;
 $h6-font-size: $font-size-base;
@@ -129,5 +130,5 @@ $spacers: (
 
 // accordion
 
-$accordion-button-active-bg: $primary;
+$accordion-button-active-bg: $yellow;
 $accordion-button-active-color: $white;
