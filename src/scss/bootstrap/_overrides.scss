@@ -4,6 +4,8 @@
 
 // colors
 
+
+
 $black: #000000;
 $white: #ffffff;
 $light-pink: #f4e9e3;
@@ -42,11 +44,11 @@ $enable-validation-icons: false;
 // Body
 
 $body-bg: $white;
-$body-color: $white;
+$body-color: $black;
 
 // Links
 
-$link-color: $body-color;
+$link-color: $black;
 $link-decoration: none;
 $link-hover-color: $link-color;
 $link-hover-decoration: underline;
@@ -124,7 +126,8 @@ $spacers: (
 	3: $spacer * 3,
 	4: $spacer * 4,
 	5: $spacer * 5,
-	75: $spacer * 7.5, 
+	75: $spacer * 7.5,
+	8: $spacer * 8,
 	10: $spacer * 10,
 ) !default;
 
@@ -132,3 +135,19 @@ $spacers: (
 
 $accordion-button-active-bg: $yellow;
 $accordion-button-active-color: $white;
+
+// dropdown
+
+$dropdown-min-width:                10rem;
+$dropdown-padding-x:                0;
+$dropdown-padding-y:                .5rem;
+$dropdown-spacer:                   .125rem;
+$dropdown-font-size:                $font-size-base;
+$dropdown-color:                    $body-color;
+$dropdown-bg:                       $white;
+$dropdown-border-color:             rgba($black, .15);
+$dropdown-divider-bg:               $dropdown-border-color;
+$dropdown-divider-margin-y:         $spacer * .5;
+
+$dropdown-link-active-color:        $black;
+$dropdown-link-active-bg:           $white;
